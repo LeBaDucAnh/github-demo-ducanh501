@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Arial, sans-serif;
+}
+header{
+	width: 1900px;
+	height: 100px;
+}
+.anhlogo{
+	width: 1900px;
+	height: 100px;
+}
+#all{
+	width: 1900px;
+	margin-top: 15px;
+}
+nav{
+	width: 1900px;
+	height: 50px;
+	border: 1px solid blue;
+}
+nav > ul{
+	list-style-type: none;
+	width: 1900px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	background-color: #FFCCFF;
+}
+nav > ul > li{
+	height: 50px;
+	width: 16.67%;
+}
+nav > ul > li a{
+	text-decoration: none;
+	line-height: 50px;
+	color: black;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+nav > ul > li a:hover{
+	background-color:  #66FFFF;
+}
+.cha{
+	position: relative;
+}
+.con{
+	position: absolute;
+	list-style-type: none;
+	background-color: #FFCCFF;
+	width: 250px;
+	left: -100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: none;
+	border: 2px solid red;
+	border-left: 4px solid red;
+	border-right: 4px solid red;
+}
+.con li{
+	height: 50px;
+	border-bottom: 1px dotted black;
+}
+.con li:last-child{
+	border-bottom: none;
+}
+.con li a{
+	text-align: left;
+	font-weight: normal;
+}
+.cha:hover .con{
+	display: block;
+	z-index: 100;
+}
+section{
+	width :1900px;
+	border: 1px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	margin-top: 15px;
+	font-size: 16px;
+	color: #000066;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.dong{
+	width: 1900px;
+	height: 300px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+.cot{
+	border: 2px solid gray;
+}
+.anh{
+	width: 350px;
+	height: 200px;
+}
+.chu{
+	padding-top: 5px;
+	text-align: center;
+}
+.chu:hover{
+	font-size: 20px;
+	background-color: #00A69B;
+}
